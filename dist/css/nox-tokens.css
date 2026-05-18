@@ -1,0 +1,94 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --nox-border-width-default: 1px; /** Standard 1dp/1px border on all surfaces. Depth is defined by borders, never shadows. */
+  --nox-border-radius-none: 0; /** VOID uses 0 radius everywhere — brutalist, no rounding. */
+  --nox-border-radius-small: 0;
+  --nox-border-radius-medium: 0;
+  --nox-border-radius-large: 0;
+  --nox-border-radius-full: 0;
+  --nox-elevation-none: 0; /** Void does not use drop shadows. All elevation is communicated via border and background layering. */
+  --nox-color-bg-base: #000000; /** App background. Pure black — nav bar, status bar, root scaffold. */
+  --nox-color-bg-surface: #0a0a0a; /** Primary surface — cards, sheets, dialogs. */
+  --nox-color-bg-surface2: #161616; /** Secondary surface — nested containers, input fields. */
+  --nox-color-bg-divider: #111111; /** Separator between list items. */
+  --nox-color-bg-border: #1a1a1a; /** 1dp border on GlassBox and all containers. Depth without shadow. */
+  --nox-color-text-primary: #ffffff; /** Full white — titles, active labels. */
+  --nox-color-text-secondary: #aaaaaa; /** Muted — subtitles, metadata. */
+  --nox-color-text-disabled: #808080; /** Tertiary / disabled state. */
+  --nox-color-accent-default: #a8b0bc; /** Steel — default accent. User-selectable at runtime. */
+  --nox-color-accent-blue: #6ba4c8; /** Reserved for weather / climate extremes. */
+  --nox-color-accent-yellow: #c4a96a; /** Warm gold accent. */
+  --nox-color-accent-purple: #8b86b8; /** Cool violet accent. */
+  --nox-color-semantic-danger: #c87070; /** Error and destructive actions. */
+  --nox-color-habit-blue-steel: #6b8cae;
+  --nox-color-habit-blue-slate: #5c7a8a;
+  --nox-color-habit-blue-cyan: #7eb8c9;
+  --nox-color-habit-blue-teal: #6e9e9e;
+  --nox-color-habit-blue-mist: #829aaa;
+  --nox-color-habit-blue-darkice: #7b9ba8;
+  --nox-color-habit-gray-graphite: #9a9fa8;
+  --nox-color-habit-gray-silver: #b8b4ae;
+  --nox-color-habit-gray-smoke: #8c8c8c;
+  --nox-color-habit-gray-greengray: #a0a89a;
+  --nox-color-habit-gray-violet: #a89fa8;
+  --nox-color-habit-warm-amber: #c4a96a;
+  --nox-color-habit-warm-earth: #a08c7a;
+  --nox-color-habit-warm-copper: #b8956a;
+  --nox-color-habit-warm-mud: #9c8070;
+  --nox-color-habit-warm-sand: #aa8860;
+  --nox-color-habit-warm-rust: #a07858;
+  --nox-color-habit-green-sage: #7eab8a;
+  --nox-color-habit-green-moss: #8fa68e;
+  --nox-color-habit-green-forest: #6e9078;
+  --nox-color-habit-green-lichen: #7a9480;
+  --nox-color-habit-green-fir: #5e8068;
+  --nox-color-habit-green-fern: #889e82;
+  --nox-color-habit-purple-lavender: #8b86b8;
+  --nox-color-habit-purple-indigo: #7a7498;
+  --nox-color-habit-purple-amethyst: #9088a8;
+  --nox-color-habit-purple-plum: #806880;
+  --nox-color-habit-purple-mauve: #987890;
+  --nox-color-habit-purple-night: #6e6488;
+  --nox-color-habit-red-rose: #b87e7e;
+  --nox-color-habit-red-brick: #a87070;
+  --nox-color-habit-red-rosewood: #c49090;
+  --nox-color-habit-red-terracotta: #9e7878;
+  --nox-color-habit-red-salmon: #b88880;
+  --nox-color-habit-red-adobe: #a87868;
+  --nox-effect-glass-surface-alpha: 0.8; /** Opacity of surface background inside GlassBox containers. */
+  --nox-effect-glass-grain-alpha: 0.04; /** Opacity of grain/noise texture overlay on GlassBox. */
+  --nox-effect-accent-glow-alpha: 0.05; /** Opacity of the radial accent gradient emanating from top-left of the screen. */
+  --nox-effect-accent-glow-radius: 2000px; /** Radius of the accent radial glow in dp/px. */
+  --nox-spacing-xs: 4px; /** 4dp / 4px */
+  --nox-spacing-sm: 8px; /** 8dp / 8px */
+  --nox-spacing-md: 16px; /** 16dp / 16px — base unit */
+  --nox-spacing-lg: 24px; /** 24dp / 24px */
+  --nox-spacing-xl: 32px; /** 32dp / 32px */
+  --nox-spacing-2xl: 48px; /** 48dp / 48px */
+  --nox-spacing-3xl: 64px; /** 64dp / 64px */
+  --nox-font-family-display: 'IBM Plex Sans'; /** Primary VOID display font. IBM Plex Sans — 7 weights, open-source, UI-optimized. https://fonts.google.com/specimen/IBM+Plex+Sans */
+  --nox-font-family-condensed: 'IBM Plex Sans Condensed'; /** Condensed variant of IBM Plex Sans. Useful for dense data, labels, and space-constrained UI. */
+  --nox-font-family-mono: 'IBM Plex Mono'; /** Monospace — code blocks, terminal contexts, numeric data. Pairs naturally with IBM Plex Sans. */
+  --nox-font-size-xs: 10px;
+  --nox-font-size-sm: 12px;
+  --nox-font-size-base: 14px;
+  --nox-font-size-md: 16px;
+  --nox-font-size-lg: 20px;
+  --nox-font-size-xl: 24px;
+  --nox-font-size-2xl: 32px;
+  --nox-font-size-3xl: 48px;
+  --nox-font-weight-thin: 100;
+  --nox-font-weight-extralight: 200;
+  --nox-font-weight-light: 300;
+  --nox-font-weight-regular: 400;
+  --nox-font-weight-medium: 500;
+  --nox-font-weight-semibold: 600;
+  --nox-font-weight-bold: 700;
+  --nox-font-letter-spacing-tight: -0.02; /** em units. Tight — display headlines. */
+  --nox-font-letter-spacing-normal: 0;
+  --nox-font-letter-spacing-wide: 0.08; /** em units. All-caps labels, tags, badges. */
+  --nox-font-letter-spacing-wider: 0.12; /** em units. Extreme caps, decorative. */
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="color_bg_base">#ff000000</color>
+  <color name="color_bg_surface">#ff0a0a0a</color>
+  <color name="color_bg_surface2">#ff161616</color>
+  <color name="color_bg_divider">#ff111111</color>
+  <color name="color_bg_border">#ff1a1a1a</color>
+  <color name="color_text_primary">#ffffffff</color>
+  <color name="color_text_secondary">#ffaaaaaa</color>
+  <color name="color_text_disabled">#ff808080</color>
+  <color name="color_accent_default">#ffa8b0bc</color>
+  <color name="color_accent_blue">#ff6ba4c8</color>
+  <color name="color_accent_yellow">#ffc4a96a</color>
+  <color name="color_accent_purple">#ff8b86b8</color>
+  <color name="color_semantic_danger">#ffc87070</color>
+  <color name="color_habit_blue_steel">#ff6b8cae</color>
+  <color name="color_habit_blue_slate">#ff5c7a8a</color>
+  <color name="color_habit_blue_cyan">#ff7eb8c9</color>
+  <color name="color_habit_blue_teal">#ff6e9e9e</color>
+  <color name="color_habit_blue_mist">#ff829aaa</color>
+  <color name="color_habit_blue_darkice">#ff7b9ba8</color>
+  <color name="color_habit_gray_graphite">#ff9a9fa8</color>
+  <color name="color_habit_gray_silver">#ffb8b4ae</color>
+  <color name="color_habit_gray_smoke">#ff8c8c8c</color>
+  <color name="color_habit_gray_greengray">#ffa0a89a</color>
+  <color name="color_habit_gray_violet">#ffa89fa8</color>
+  <color name="color_habit_warm_amber">#ffc4a96a</color>
+  <color name="color_habit_warm_earth">#ffa08c7a</color>
+  <color name="color_habit_warm_copper">#ffb8956a</color>
+  <color name="color_habit_warm_mud">#ff9c8070</color>
+  <color name="color_habit_warm_sand">#ffaa8860</color>
+  <color name="color_habit_warm_rust">#ffa07858</color>
+  <color name="color_habit_green_sage">#ff7eab8a</color>
+  <color name="color_habit_green_moss">#ff8fa68e</color>
+  <color name="color_habit_green_forest">#ff6e9078</color>
+  <color name="color_habit_green_lichen">#ff7a9480</color>
+  <color name="color_habit_green_fir">#ff5e8068</color>
+  <color name="color_habit_green_fern">#ff889e82</color>
+  <color name="color_habit_purple_lavender">#ff8b86b8</color>
+  <color name="color_habit_purple_indigo">#ff7a7498</color>
+  <color name="color_habit_purple_amethyst">#ff9088a8</color>
+  <color name="color_habit_purple_plum">#ff806880</color>
+  <color name="color_habit_purple_mauve">#ff987890</color>
+  <color name="color_habit_purple_night">#ff6e6488</color>
+  <color name="color_habit_red_rose">#ffb87e7e</color>
+  <color name="color_habit_red_brick">#ffa87070</color>
+  <color name="color_habit_red_rosewood">#ffc49090</color>
+  <color name="color_habit_red_terracotta">#ff9e7878</color>
+  <color name="color_habit_red_salmon">#ffb88880</color>
+  <color name="color_habit_red_adobe">#ffa87868</color>
+</resources>
