@@ -8,18 +8,22 @@
       }
     },
     "radius": {
-      "none":    { "$value": "0", "$type": "dimension", "$description": "VOID uses 0 radius everywhere — brutalist, no rounding." },
-      "small":   { "$value": "0", "$type": "dimension" },
-      "medium":  { "$value": "0", "$type": "dimension" },
-      "large":   { "$value": "0", "$type": "dimension" },
-      "full":    { "$value": "0", "$type": "dimension" }
+      "none": {
+        "$value": "0",
+        "$type": "dimension",
+        "$description": "VOID uses 0 radius everywhere — brutalist, no rounding."
+      },
+      "small": { "$value": "0", "$type": "dimension" },
+      "medium": { "$value": "0", "$type": "dimension" },
+      "large": { "$value": "0", "$type": "dimension" },
+      "full": { "$value": "0", "$type": "dimension" }
     }
   },
   "elevation": {
     "none": {
       "$value": "0",
       "$type": "dimension",
-      "$description": "VOID does not use drop shadows. All elevation is communicated via border and background layering."
+      "$description": "Void does not use drop shadows. All elevation is communicated via border and background layering."
     }
   }
 }
