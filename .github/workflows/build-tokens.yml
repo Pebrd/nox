@@ -2,7 +2,7 @@ name: Build Design Tokens
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - 'tokens/**'
       - 'style-dictionary.config.mjs'
