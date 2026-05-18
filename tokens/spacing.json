@@ -1,0 +1,11 @@
+{
+  "spacing": {
+    "xs":  { "$value": "4",  "$type": "dimension", "$description": "4dp / 4px" },
+    "sm":  { "$value": "8",  "$type": "dimension", "$description": "8dp / 8px" },
+    "md":  { "$value": "16", "$type": "dimension", "$description": "16dp / 16px — base unit" },
+    "lg":  { "$value": "24", "$type": "dimension", "$description": "24dp / 24px" },
+    "xl":  { "$value": "32", "$type": "dimension", "$description": "32dp / 32px" },
+    "2xl": { "$value": "48", "$type": "dimension", "$description": "48dp / 48px" },
+    "3xl": { "$value": "64", "$type": "dimension", "$description": "64dp / 64px" }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "void-design-system",
+  "version": "1.0.0",
+  "description": "VOID Design System — W3C DTCG tokens for all platforms",
+  "type": "module",
+  "scripts": {
+    "build": "node style-dictionary.config.mjs",
+    "watch": "node --watch style-dictionary.config.mjs"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.3.0"
+  }
+}

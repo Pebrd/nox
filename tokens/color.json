@@ -1,0 +1,126 @@
+{
+  "color": {
+    "bg": {
+      "base": {
+        "$value": "#000000",
+        "$type": "color",
+        "$description": "App background. Pure black — nav bar, status bar, root scaffold."
+      },
+      "surface": {
+        "$value": "#0A0A0A",
+        "$type": "color",
+        "$description": "Primary surface — cards, sheets, dialogs."
+      },
+      "surface2": {
+        "$value": "#161616",
+        "$type": "color",
+        "$description": "Secondary surface — nested containers, input fields."
+      },
+      "divider": {
+        "$value": "#111111",
+        "$type": "color",
+        "$description": "Separator between list items."
+      },
+      "border": {
+        "$value": "#1A1A1A",
+        "$type": "color",
+        "$description": "1dp border on GlassBox and all containers. Depth without shadow."
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "#FFFFFF",
+        "$type": "color",
+        "$description": "Full white — titles, active labels."
+      },
+      "secondary": {
+        "$value": "#AAAAAA",
+        "$type": "color",
+        "$description": "Muted — subtitles, metadata."
+      },
+      "disabled": {
+        "$value": "#808080",
+        "$type": "color",
+        "$description": "Tertiary / disabled state."
+      }
+    },
+    "accent": {
+      "default": {
+        "$value": "#A8B0BC",
+        "$type": "color",
+        "$description": "Steel — default accent. User-selectable at runtime."
+      },
+      "blue": {
+        "$value": "#6BA4C8",
+        "$type": "color",
+        "$description": "Reserved for weather / climate extremes."
+      },
+      "yellow": {
+        "$value": "#C4A96A",
+        "$type": "color",
+        "$description": "Warm gold accent."
+      },
+      "purple": {
+        "$value": "#8B86B8",
+        "$type": "color",
+        "$description": "Cool violet accent."
+      }
+    },
+    "semantic": {
+      "danger": {
+        "$value": "#C87070",
+        "$type": "color",
+        "$description": "Error and destructive actions."
+      }
+    },
+    "habit": {
+      "blue": {
+        "steel":   { "$value": "#6B8CAE", "$type": "color" },
+        "slate":   { "$value": "#5C7A8A", "$type": "color" },
+        "cyan":    { "$value": "#7EB8C9", "$type": "color" },
+        "teal":    { "$value": "#6E9E9E", "$type": "color" },
+        "mist":    { "$value": "#829AAA", "$type": "color" },
+        "darkice": { "$value": "#7B9BA8", "$type": "color" }
+      },
+      "gray": {
+        "graphite": { "$value": "#9A9FA8", "$type": "color" },
+        "silver":   { "$value": "#B8B4AE", "$type": "color" },
+        "smoke":    { "$value": "#8C8C8C", "$type": "color" },
+        "greengray":{ "$value": "#A0A89A", "$type": "color" },
+        "violet":   { "$value": "#A89FA8", "$type": "color" }
+      },
+      "warm": {
+        "amber":  { "$value": "#C4A96A", "$type": "color" },
+        "earth":  { "$value": "#A08C7A", "$type": "color" },
+        "copper": { "$value": "#B8956A", "$type": "color" },
+        "mud":    { "$value": "#9C8070", "$type": "color" },
+        "sand":   { "$value": "#AA8860", "$type": "color" },
+        "rust":   { "$value": "#A07858", "$type": "color" }
+      },
+      "green": {
+        "sage":   { "$value": "#7EAB8A", "$type": "color" },
+        "moss":   { "$value": "#8FA68E", "$type": "color" },
+        "forest": { "$value": "#6E9078", "$type": "color" },
+        "lichen": { "$value": "#7A9480", "$type": "color" },
+        "fir":    { "$value": "#5E8068", "$type": "color" },
+        "fern":   { "$value": "#889E82", "$type": "color" }
+      },
+      "purple": {
+        "lavender": { "$value": "#8B86B8", "$type": "color" },
+        "indigo":   { "$value": "#7A7498", "$type": "color" },
+        "amethyst": { "$value": "#9088A8", "$type": "color" },
+        "plum":     { "$value": "#806880", "$type": "color" },
+        "mauve":    { "$value": "#987890", "$type": "color" },
+        "night":    { "$value": "#6E6488", "$type": "color" }
+      },
+      "red": {
+        "rose":       { "$value": "#B87E7E", "$type": "color" },
+        "brick":      { "$value": "#A87070", "$type": "color" },
+        "rosewood":   { "$value": "#C49090", "$type": "color" },
+        "terracotta": { "$value": "#9E7878", "$type": "color" },
+        "salmon":     { "$value": "#B88880", "$type": "color" },
+        "adobe":      { "$value": "#A87868", "$type": "color" }
+      }
+    }
+  }
+}

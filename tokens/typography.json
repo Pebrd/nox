@@ -1,0 +1,46 @@
+{
+  "font": {
+    "family": {
+      "display": {
+        "$value": "IBM Plex Sans",
+        "$type": "fontFamily",
+        "$description": "Primary VOID display font. IBM Plex Sans — 7 weights, open-source, UI-optimized. https://fonts.google.com/specimen/IBM+Plex+Sans"
+      },
+      "condensed": {
+        "$value": "IBM Plex Sans Condensed",
+        "$type": "fontFamily",
+        "$description": "Condensed variant of IBM Plex Sans. Useful for dense data, labels, and space-constrained UI."
+      },
+      "mono": {
+        "$value": "IBM Plex Mono",
+        "$type": "fontFamily",
+        "$description": "Monospace — code blocks, terminal contexts, numeric data. Pairs naturally with IBM Plex Sans."
+      }
+    },
+    "size": {
+      "xs":   { "$value": "10", "$type": "dimension" },
+      "sm":   { "$value": "12", "$type": "dimension" },
+      "base": { "$value": "14", "$type": "dimension" },
+      "md":   { "$value": "16", "$type": "dimension" },
+      "lg":   { "$value": "20", "$type": "dimension" },
+      "xl":   { "$value": "24", "$type": "dimension" },
+      "2xl":  { "$value": "32", "$type": "dimension" },
+      "3xl":  { "$value": "48", "$type": "dimension" }
+    },
+    "weight": {
+      "thin":       { "$value": "100", "$type": "fontWeight" },
+      "extralight": { "$value": "200", "$type": "fontWeight" },
+      "light":      { "$value": "300", "$type": "fontWeight" },
+      "regular":    { "$value": "400", "$type": "fontWeight" },
+      "medium":     { "$value": "500", "$type": "fontWeight" },
+      "semibold":   { "$value": "600", "$type": "fontWeight" },
+      "bold":       { "$value": "700", "$type": "fontWeight" }
+    },
+    "letterSpacing": {
+      "tight":  { "$value": "-0.02", "$type": "number", "$description": "em units. Tight — display headlines." },
+      "normal": { "$value": "0",     "$type": "number" },
+      "wide":   { "$value": "0.08",  "$type": "number", "$description": "em units. All-caps labels, tags, badges." },
+      "wider":  { "$value": "0.12",  "$type": "number", "$description": "em units. Extreme caps, decorative." }
+    }
+  }
+}

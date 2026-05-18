@@ -1,0 +1,28 @@
+{
+  "effect": {
+    "glass": {
+      "surfaceAlpha": {
+        "$value": "0.8",
+        "$type": "number",
+        "$description": "Opacity of surface background inside GlassBox containers."
+      },
+      "grainAlpha": {
+        "$value": "0.04",
+        "$type": "number",
+        "$description": "Opacity of grain/noise texture overlay on GlassBox."
+      }
+    },
+    "accentGlow": {
+      "alpha": {
+        "$value": "0.05",
+        "$type": "number",
+        "$description": "Opacity of the radial accent gradient emanating from top-left of the screen."
+      },
+      "radius": {
+        "$value": "2000",
+        "$type": "dimension",
+        "$description": "Radius of the accent radial glow in dp/px."
+      }
+    }
+  }
+}

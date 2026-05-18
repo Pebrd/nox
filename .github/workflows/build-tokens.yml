@@ -1,0 +1,46 @@
+name: Build Design Tokens
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tokens/**'
+      - 'style-dictionary.config.mjs'
+  pull_request:
+    paths:
+      - 'tokens/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Generate token outputs
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build tokens
+        run: npm run build
+
+      - name: Commit generated files
+        # Solo commitea en push a main, no en PRs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          git diff --cached --quiet || git commit -m "chore: regenerate tokens [skip ci]"
+          git push
