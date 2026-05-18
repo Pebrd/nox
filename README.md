@@ -1,4 +1,4 @@
-# VOID Design System — Tokens
+# NOX Design System — Tokens
 
 Design tokens en formato **W3C DTCG** generados automáticamente para todas las plataformas mediante Style Dictionary v4.
 
