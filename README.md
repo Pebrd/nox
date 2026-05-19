@@ -15,6 +15,19 @@ Design tokens en formato **W3C DTCG** generados automáticamente para todas las 
 - [VOID](https://github.com/welcomethevoid)
 - [LUMO](https://github.com/pebrd/lumo)
 - [CONDUIT](https://github.com/pebrd/conduit)
+
+Default message
+
+```
+## 🎨 Design System & Aesthetics (Nox)
+
+Conduit's premium interface is dynamically synchronized with the **Nox Design System** (defined in [pebrd/nox](https://github.com/pebrd/nox)). The application is designed to follow a high-contrast monochromatic brutalist style:
+
+- **⚫ AMOLED Absolute Black**: Sleek energy-saving dark palette (`ColorBgBase`, `ColorBgSurface`, `ColorBgSurface2` mapped straight from `NoxTokens`).
+- **📐 Flat Brutalist Shapes**: No rounded corners (`0.dp` border radius) for a technical, command-line inspired layout.
+- **🅰️ Custom Google Fonts**: Fully integrated with **IBM Plex Sans** (Light, Regular, SemiBold) for displays and bodies, and **IBM Plex Mono** (Light, Regular) for tags, track IDs, ISRCs, scores, and logs.
+```
+  
 ---
 
 ## Estructura
