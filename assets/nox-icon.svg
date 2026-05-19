@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Nox icon — N3 minimal -->
+  <!-- Base -->
+  <rect width="512" height="512" fill="#000000"/>
+
+  <!-- Pilar izquierdo -->
+  <rect x="118" y="150" width="90" height="212" fill="#a8b0bc"/>
+
+  <!-- Pilar derecho -->
+  <rect x="304" y="150" width="90" height="212" fill="#a8b0bc"/>
+
+  <!-- Barra superior -->
+  <rect x="208" y="150" width="96" height="44" fill="#a8b0bc"/>
+
+  <!-- Cuadrado flotante — acento -->
+  <rect x="256" y="362" width="56" height="56" fill="#a8b0bc"/>
+</svg>
