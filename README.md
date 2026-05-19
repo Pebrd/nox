@@ -11,6 +11,11 @@ Design tokens en formato **W3C DTCG** generados automáticamente para todas las 
 - Acento configurable en runtime (`#A8B0BC` por defecto)
 
 ---
+## Uses
+- [VOID](github.com/welcomethevoid)
+- [LUMO](github.com/pebrd/lumo)
+- [CONDUIT](github.com/pebrd/conduit)
+---
 
 ## Estructura
 
