@@ -12,9 +12,9 @@ Design tokens en formato **W3C DTCG** generados automáticamente para todas las 
 
 ---
 ## Uses
-- [VOID](github.com/welcomethevoid)
-- [LUMO](github.com/pebrd/lumo)
-- [CONDUIT](github.com/pebrd/conduit)
+- [VOID](https://github.com/welcomethevoid)
+- [LUMO](https://github.com/pebrd/lumo)
+- [CONDUIT](https://github.com/pebrd/conduit)
 ---
 
 ## Estructura
