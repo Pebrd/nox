@@ -1,4 +1,6 @@
-# NOX Design System — Tokens
+<p align="center">
+  <img src="assets/nox_banner.svg" alt="Lumo Premium Monochromatic Design"  />
+</p>
 
 Design tokens en formato **W3C DTCG** generados automáticamente para todas las plataformas mediante Style Dictionary v4.
 
