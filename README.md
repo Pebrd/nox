@@ -17,6 +17,8 @@ Design tokens en formato **W3C DTCG** generados automáticamente para todas las 
 - [VOID](https://github.com/welcomethevoid)
 - [LUMO](https://github.com/pebrd/lumo)
 - [CONDUIT](https://github.com/pebrd/conduit)
+- [NOX-DOTS](https://github.com/pebrd/nox-dots)
+
 
 Default message
 
