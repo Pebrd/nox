@@ -13,7 +13,7 @@ jobs:
       - name: Trigger nox-dots rebuild
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.DOTS_DISPATCH_TOKEN }}
+          token: ${{ secrets.NOX_DOTS_PAT }}
           repository: pebrd/nox-dots
           event-type: nox-tokens-updated
           client-payload: |
