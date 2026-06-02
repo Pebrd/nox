@@ -62,6 +62,17 @@
   --nox-effect-glass-grain-alpha: 0.04; /** Opacity of grain/noise texture overlay on GlassBox. */
   --nox-effect-accent-glow-alpha: 0.05; /** Opacity of the radial accent gradient emanating from top-left of the screen. */
   --nox-effect-accent-glow-radius: 2000px; /** Radius of the accent radial glow in dp/px. */
+  --nox-effect-elevation-raised-border-light: 0.06; /** Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000. */
+  --nox-effect-elevation-raised-inset-highlight: 0.05; /** Alpha of inset top edge light on raised cards. */
+  --nox-effect-elevation-raised-inset-shadow: 0.3; /** Alpha of inset bottom shadow on raised cards — dark recess against surface. */
+  --nox-effect-elevation-raised-steel-glow: 0.03; /** Alpha of steel accent drop shadow for elevation without black-on-black invisibility. */
+  --nox-effect-elevation-raised-steel-glow-radius: 32px; /** Blur radius in dp/px of the steel accent elevation glow. */
+  --nox-effect-elevation-gradient-surface-start: #0c0c0c; /** Lightest stop of the diagonal gradient — barely off-black, defines direction. */
+  --nox-effect-elevation-gradient-surface-mid: #050505; /** Mid stop of the diagonal gradient. */
+  --nox-effect-elevation-gradient-surface-end: #000000; /** End stop — pure black, blends with base background. */
+  --nox-effect-elevation-gradient-surface-angle: 145; /** Angle in degrees for the diagonal elevation gradient. */
+  --nox-effect-elevation-gradient-surface-border-alpha: 0.06; /** Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color. */
+  --nox-effect-elevation-gradient-surface-inner-highlight: 0.025; /** Alpha of inset top edge highlight on gradient surfaces. */
   --nox-spacing-xs: 4px; /** 4dp / 4px */
   --nox-spacing-sm: 8px; /** 8dp / 8px */
   --nox-spacing-md: 16px; /** 16dp / 16px — base unit */

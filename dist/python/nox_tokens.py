@@ -81,6 +81,28 @@ class NoxTokens:
     EFFECT_ACCENTGLOW_ALPHA = 0.05
     # Radius of the accent radial glow in dp/px.
     EFFECT_ACCENTGLOW_RADIUS = 2000
+    # Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000.
+    EFFECT_ELEVATION_RAISED_BORDERLIGHT = 0.06
+    # Alpha of inset top edge light on raised cards.
+    EFFECT_ELEVATION_RAISED_INSETHIGHLIGHT = 0.05
+    # Alpha of inset bottom shadow on raised cards — dark recess against surface.
+    EFFECT_ELEVATION_RAISED_INSETSHADOW = 0.3
+    # Alpha of steel accent drop shadow for elevation without black-on-black invisibility.
+    EFFECT_ELEVATION_RAISED_STEELGLOW = 0.03
+    # Blur radius in dp/px of the steel accent elevation glow.
+    EFFECT_ELEVATION_RAISED_STEELGLOWRADIUS = 32
+    # Lightest stop of the diagonal gradient — barely off-black, defines direction.
+    EFFECT_ELEVATION_GRADIENTSURFACE_START = "#0C0C0C"
+    # Mid stop of the diagonal gradient.
+    EFFECT_ELEVATION_GRADIENTSURFACE_MID = "#050505"
+    # End stop — pure black, blends with base background.
+    EFFECT_ELEVATION_GRADIENTSURFACE_END = "#000000"
+    # Angle in degrees for the diagonal elevation gradient.
+    EFFECT_ELEVATION_GRADIENTSURFACE_ANGLE = 145
+    # Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color.
+    EFFECT_ELEVATION_GRADIENTSURFACE_BORDERALPHA = 0.06
+    # Alpha of inset top edge highlight on gradient surfaces.
+    EFFECT_ELEVATION_GRADIENTSURFACE_INNERHIGHLIGHT = 0.025
     # 4dp / 4px
     SPACING_XS = 4
     # 8dp / 8px

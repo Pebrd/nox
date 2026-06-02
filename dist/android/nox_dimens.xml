@@ -12,6 +12,7 @@
   <dimen name="border_radius_full">0dp</dimen>
   <dimen name="elevation_none">0dp</dimen>
   <dimen name="effect_accent_glow_radius">2000dp</dimen>
+  <dimen name="effect_elevation_raised_steel_glow_radius">32dp</dimen>
   <dimen name="spacing_xs">4dp</dimen>
   <dimen name="spacing_sm">8dp</dimen>
   <dimen name="spacing_md">16dp</dimen>

@@ -23,6 +23,67 @@
         "$type": "dimension",
         "$description": "Radius of the accent radial glow in dp/px."
       }
+    },
+    "elevation": {
+      "raised": {
+        "borderLight": {
+          "$value": "0.06",
+          "$type": "number",
+          "$description": "Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000."
+        },
+        "insetHighlight": {
+          "$value": "0.05",
+          "$type": "number",
+          "$description": "Alpha of inset top edge light on raised cards."
+        },
+        "insetShadow": {
+          "$value": "0.3",
+          "$type": "number",
+          "$description": "Alpha of inset bottom shadow on raised cards — dark recess against surface."
+        },
+        "steelGlow": {
+          "$value": "0.03",
+          "$type": "number",
+          "$description": "Alpha of steel accent drop shadow for elevation without black-on-black invisibility."
+        },
+        "steelGlowRadius": {
+          "$value": "32",
+          "$type": "dimension",
+          "$description": "Blur radius in dp/px of the steel accent elevation glow."
+        }
+      },
+      "gradientSurface": {
+        "start": {
+          "$value": "#0C0C0C",
+          "$type": "color",
+          "$description": "Lightest stop of the diagonal gradient — barely off-black, defines direction."
+        },
+        "mid": {
+          "$value": "#050505",
+          "$type": "color",
+          "$description": "Mid stop of the diagonal gradient."
+        },
+        "end": {
+          "$value": "#000000",
+          "$type": "color",
+          "$description": "End stop — pure black, blends with base background."
+        },
+        "angle": {
+          "$value": "145",
+          "$type": "number",
+          "$description": "Angle in degrees for the diagonal elevation gradient."
+        },
+        "borderAlpha": {
+          "$value": "0.06",
+          "$type": "number",
+          "$description": "Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color."
+        },
+        "innerHighlight": {
+          "$value": "0.025",
+          "$type": "number",
+          "$description": "Alpha of inset top edge highlight on gradient surfaces."
+        }
+      }
     }
   }
 }

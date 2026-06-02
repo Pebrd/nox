@@ -81,6 +81,28 @@ export const EffectGlassGrainAlpha: string;
 export const EffectAccentGlowAlpha: string;
 /** Radius of the accent radial glow in dp/px. */
 export const EffectAccentGlowRadius: string;
+/** Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000. */
+export const EffectElevationRaisedBorderLight: string;
+/** Alpha of inset top edge light on raised cards. */
+export const EffectElevationRaisedInsetHighlight: string;
+/** Alpha of inset bottom shadow on raised cards — dark recess against surface. */
+export const EffectElevationRaisedInsetShadow: string;
+/** Alpha of steel accent drop shadow for elevation without black-on-black invisibility. */
+export const EffectElevationRaisedSteelGlow: string;
+/** Blur radius in dp/px of the steel accent elevation glow. */
+export const EffectElevationRaisedSteelGlowRadius: string;
+/** Lightest stop of the diagonal gradient — barely off-black, defines direction. */
+export const EffectElevationGradientSurfaceStart: string;
+/** Mid stop of the diagonal gradient. */
+export const EffectElevationGradientSurfaceMid: string;
+/** End stop — pure black, blends with base background. */
+export const EffectElevationGradientSurfaceEnd: string;
+/** Angle in degrees for the diagonal elevation gradient. */
+export const EffectElevationGradientSurfaceAngle: string;
+/** Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color. */
+export const EffectElevationGradientSurfaceBorderAlpha: string;
+/** Alpha of inset top edge highlight on gradient surfaces. */
+export const EffectElevationGradientSurfaceInnerHighlight: string;
 /** 4dp / 4px */
 export const SpacingXs: string;
 /** 8dp / 8px */

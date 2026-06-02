@@ -85,6 +85,28 @@ class NoxTokens {
   static const double effectAccentGlowAlpha = 0.05;
   // Radius of the accent radial glow in dp/px.
   static const double effectAccentGlowRadius = 2000;
+  // Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000.
+  static const double effectElevationRaisedBorderLight = 0.06;
+  // Alpha of inset top edge light on raised cards.
+  static const double effectElevationRaisedInsetHighlight = 0.05;
+  // Alpha of inset bottom shadow on raised cards — dark recess against surface.
+  static const double effectElevationRaisedInsetShadow = 0.3;
+  // Alpha of steel accent drop shadow for elevation without black-on-black invisibility.
+  static const double effectElevationRaisedSteelGlow = 0.03;
+  // Blur radius in dp/px of the steel accent elevation glow.
+  static const double effectElevationRaisedSteelGlowRadius = 32;
+  // Lightest stop of the diagonal gradient — barely off-black, defines direction.
+  static const Color effectElevationGradientSurfaceStart = Color(0xFF0C0C0C);
+  // Mid stop of the diagonal gradient.
+  static const Color effectElevationGradientSurfaceMid = Color(0xFF050505);
+  // End stop — pure black, blends with base background.
+  static const Color effectElevationGradientSurfaceEnd = Color(0xFF000000);
+  // Angle in degrees for the diagonal elevation gradient.
+  static const double effectElevationGradientSurfaceAngle = 145;
+  // Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color.
+  static const double effectElevationGradientSurfaceBorderAlpha = 0.06;
+  // Alpha of inset top edge highlight on gradient surfaces.
+  static const double effectElevationGradientSurfaceInnerHighlight = 0.025;
   // 4dp / 4px
   static const double spacingXs = 4;
   // 8dp / 8px

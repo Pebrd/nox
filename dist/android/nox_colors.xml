@@ -52,4 +52,7 @@
   <color name="color_habit_red_terracotta">#ff9e7878</color>
   <color name="color_habit_red_salmon">#ffb88880</color>
   <color name="color_habit_red_adobe">#ffa87868</color>
+  <color name="effect_elevation_gradient_surface_start">#ff0c0c0c</color>
+  <color name="effect_elevation_gradient_surface_mid">#ff050505</color>
+  <color name="effect_elevation_gradient_surface_end">#ff000000</color>
 </resources>

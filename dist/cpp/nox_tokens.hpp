@@ -85,6 +85,28 @@ namespace nox_tokens {
   constexpr float EFFECT_ACCENTGLOW_ALPHA = 0.05f;
   // Radius of the accent radial glow in dp/px.
   constexpr float EFFECT_ACCENTGLOW_RADIUS = 2000f;
+  // Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000.
+  constexpr float EFFECT_ELEVATION_RAISED_BORDERLIGHT = 0.06f;
+  // Alpha of inset top edge light on raised cards.
+  constexpr float EFFECT_ELEVATION_RAISED_INSETHIGHLIGHT = 0.05f;
+  // Alpha of inset bottom shadow on raised cards — dark recess against surface.
+  constexpr float EFFECT_ELEVATION_RAISED_INSETSHADOW = 0.3f;
+  // Alpha of steel accent drop shadow for elevation without black-on-black invisibility.
+  constexpr float EFFECT_ELEVATION_RAISED_STEELGLOW = 0.03f;
+  // Blur radius in dp/px of the steel accent elevation glow.
+  constexpr float EFFECT_ELEVATION_RAISED_STEELGLOWRADIUS = 32f;
+  // Lightest stop of the diagonal gradient — barely off-black, defines direction.
+  constexpr uint32_t EFFECT_ELEVATION_GRADIENTSURFACE_START = 0x0C0C0C;
+  // Mid stop of the diagonal gradient.
+  constexpr uint32_t EFFECT_ELEVATION_GRADIENTSURFACE_MID = 0x050505;
+  // End stop — pure black, blends with base background.
+  constexpr uint32_t EFFECT_ELEVATION_GRADIENTSURFACE_END = 0x000000;
+  // Angle in degrees for the diagonal elevation gradient.
+  constexpr float EFFECT_ELEVATION_GRADIENTSURFACE_ANGLE = 145f;
+  // Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color.
+  constexpr float EFFECT_ELEVATION_GRADIENTSURFACE_BORDERALPHA = 0.06f;
+  // Alpha of inset top edge highlight on gradient surfaces.
+  constexpr float EFFECT_ELEVATION_GRADIENTSURFACE_INNERHIGHLIGHT = 0.025f;
   // 4dp / 4px
   constexpr float SPACING_XS = 4f;
   // 8dp / 8px

@@ -83,6 +83,28 @@ pub mod nox_tokens {
   pub const EFFECT_ACCENTGLOW_ALPHA: f32 = 0.05_f32;
   /// Radius of the accent radial glow in dp/px.
   pub const EFFECT_ACCENTGLOW_RADIUS: f32 = 2000_f32;
+  /// Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000.
+  pub const EFFECT_ELEVATION_RAISED_BORDERLIGHT: f32 = 0.06_f32;
+  /// Alpha of inset top edge light on raised cards.
+  pub const EFFECT_ELEVATION_RAISED_INSETHIGHLIGHT: f32 = 0.05_f32;
+  /// Alpha of inset bottom shadow on raised cards — dark recess against surface.
+  pub const EFFECT_ELEVATION_RAISED_INSETSHADOW: f32 = 0.3_f32;
+  /// Alpha of steel accent drop shadow for elevation without black-on-black invisibility.
+  pub const EFFECT_ELEVATION_RAISED_STEELGLOW: f32 = 0.03_f32;
+  /// Blur radius in dp/px of the steel accent elevation glow.
+  pub const EFFECT_ELEVATION_RAISED_STEELGLOWRADIUS: f32 = 32_f32;
+  /// Lightest stop of the diagonal gradient — barely off-black, defines direction.
+  pub const EFFECT_ELEVATION_GRADIENTSURFACE_START: u32 = 0x0C0C0C;
+  /// Mid stop of the diagonal gradient.
+  pub const EFFECT_ELEVATION_GRADIENTSURFACE_MID: u32 = 0x050505;
+  /// End stop — pure black, blends with base background.
+  pub const EFFECT_ELEVATION_GRADIENTSURFACE_END: u32 = 0x000000;
+  /// Angle in degrees for the diagonal elevation gradient.
+  pub const EFFECT_ELEVATION_GRADIENTSURFACE_ANGLE: f32 = 145_f32;
+  /// Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color.
+  pub const EFFECT_ELEVATION_GRADIENTSURFACE_BORDERALPHA: f32 = 0.06_f32;
+  /// Alpha of inset top edge highlight on gradient surfaces.
+  pub const EFFECT_ELEVATION_GRADIENTSURFACE_INNERHIGHLIGHT: f32 = 0.025_f32;
   /// 4dp / 4px
   pub const SPACING_XS: f32 = 4_f32;
   /// 8dp / 8px

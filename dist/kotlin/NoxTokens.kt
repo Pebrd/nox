@@ -67,6 +67,17 @@ object NoxTokens {
   val EffectGlassGrainAlpha = 0.04f  // Opacity of grain/noise texture overlay on GlassBox.
   val EffectAccentGlowAlpha = 0.05f  // Opacity of the radial accent gradient emanating from top-left of the screen.
   val EffectAccentGlowRadius = 2000.dp  // Radius of the accent radial glow in dp/px.
+  val EffectElevationRaisedBorderLight = 0.06f  // Alpha of white border highlight on raised surfaces — creates depth via edge contrast against #000.
+  val EffectElevationRaisedInsetHighlight = 0.05f  // Alpha of inset top edge light on raised cards.
+  val EffectElevationRaisedInsetShadow = 0.3f  // Alpha of inset bottom shadow on raised cards — dark recess against surface.
+  val EffectElevationRaisedSteelGlow = 0.03f  // Alpha of steel accent drop shadow for elevation without black-on-black invisibility.
+  val EffectElevationRaisedSteelGlowRadius = 32.dp  // Blur radius in dp/px of the steel accent elevation glow.
+  val EffectElevationGradientSurfaceStart = Color(0xFF0C0C0C)  // Lightest stop of the diagonal gradient — barely off-black, defines direction.
+  val EffectElevationGradientSurfaceMid = Color(0xFF050505)  // Mid stop of the diagonal gradient.
+  val EffectElevationGradientSurfaceEnd = Color(0xFF000000)  // End stop — pure black, blends with base background.
+  val EffectElevationGradientSurfaceAngle = 145f  // Angle in degrees for the diagonal elevation gradient.
+  val EffectElevationGradientSurfaceBorderAlpha = 0.06f  // Alpha of border on gradient surfaces — uses steel accent (#A8B0BC) as base color.
+  val EffectElevationGradientSurfaceInnerHighlight = 0.025f  // Alpha of inset top edge highlight on gradient surfaces.
   val SpacingXs = 4.dp  // 4dp / 4px
   val SpacingSm = 8.dp  // 8dp / 8px
   val SpacingMd = 16.dp  // 16dp / 16px — base unit
